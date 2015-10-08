@@ -14,6 +14,19 @@ public class Hole extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        tryToCatch( Robot.class );
+        randomMove( 8 );
+    }
+    public void tryToCatch( Class prey )
+    {
+        
+    }
+    public void randomMove(int  maxAmount )
+    {
+        setLocation(getX()+(Greenfoot.getRandomNumber
+                           (2*maxAmount+1)-maxAmount), //xoordinate
+                    getY()+(Greenfoot.getRandomNumber
+                           (2*maxAmount+1)-maxAmount));
+    }
 }
+

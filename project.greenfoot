@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Thu Oct 08 18:34:27 CDT 2015
+#Thu Oct 08 18:39:12 CDT 2015
 target3.editor.y=145
 target3.editor.x=202
 target2.naviview.expanded=true
@@ -34,9 +34,9 @@ target2.typeParameters=
 target3.editor.width=900
 mainWindow.width=858
 target1.typeParameters=
-target1.editor.y=34
+target1.editor.y=42
 class.RobotWorld.image=bluerock.jpg
-target1.editor.x=121
+target1.editor.x=294
 target3.naviview.expanded=true
 dependency2.from=RobotWorld
 target2.width=80
