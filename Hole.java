@@ -19,7 +19,11 @@ public class Hole extends Actor
     }
     public void tryToCatch( Class prey )
     {
-        
+        Actor target = getOneObjectAtOffset(0, 0, prey);
+        if (target  != null) // if target not equal to world,
+        {
+            getWorld().removeObject(target);
+        }
     }
     public void randomMove(int  maxAmount )
     {
