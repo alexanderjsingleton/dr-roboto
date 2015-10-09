@@ -15,7 +15,7 @@ public class Hole extends Actor
     public void act() 
     {
         tryToCatch( Robot.class );
-        randomMove( 8 );
+        randomMove( 20 );
     }
     public void tryToCatch( Class prey )
     {
